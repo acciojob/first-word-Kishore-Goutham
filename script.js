@@ -1,7 +1,7 @@
 function firstWord(s) {
   // your code here
 
-	if(s.length==0 || s.length==1){
+	if(s.length==0){
 		return (s);
 	}	
 	let str = s.trim().split(" ");
