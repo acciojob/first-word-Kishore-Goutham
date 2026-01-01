@@ -1,15 +1,11 @@
 function firstWord(s) {
   // your code here
 
-	if(str==""){
-		return "";
-	}
-	let index = str.index(" ");
-	if(index==-1){
-		return str
-	}
-
-	return str.slice(0,index)
+	if(s.length==0 || s.length==1){
+		return (s);
+	}	
+	let str = s.trim().split(" ");
+	return str[0];
 }
   
 // Do not change the code below
